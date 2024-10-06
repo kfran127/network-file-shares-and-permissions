@@ -28,8 +28,10 @@
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="File Shares Configuration" width="80%">
+  <img src="https://github.com/user-attachments/assets/c5878847-7bd1-415e-9b54-1be1fd133a6c" alt="File Shares Configuration" width="80%">
 </p>
+
+
 
 <h2>Part 2: Testing File Share Access as a Normal User</h2>
 
@@ -45,8 +47,19 @@
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Testing File Shares Access" width="80%">
+  <img src="https://github.com/user-attachments/assets/0a9be9b1-5f4d-4d9a-a103-670ba5d5d2b4" alt="Testing File Shares Access" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d1a316e6-a699-43df-9a83-9004e276c238" alt="Testing File Shares Access" width="80%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7d199046-f708-461b-93da-1f81b7171d37" alt="Testing File Shares Access" width="80%">
+</p>
+
+
+
 
 <h2>Part 3: Creating a Security Group and Testing Folder Access</h2>
 
@@ -60,24 +73,32 @@
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Creating ACCOUNTANTS Security Group" width="80%">
+  <img src="https://github.com/user-attachments/assets/1edf19ca-df68-45bb-880e-e353f616e10c" alt="Creating ACCOUNTANTS Security Group" width="80%">
 </p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb318e91-f9a6-4bf1-901a-2c7f699ecb48" alt="Creating ACCOUNTANTS Security Group" width="80%">
+</p>
+
+
 
 <p><strong>Step 5: Test Access to the Accounting Folder as a Normal User</strong></p>
 <ul>
-  <li>On <strong>Client-1</strong>, I tried to access the <strong>accounting</strong> folder as a normal user (<strong>mydomain\<someuser></strong>), but access was denied as expected.</li>
+  <li>On <strong>Client-1</strong>, I tried to access the <strong>accounting</strong> folder as a normal user (bam.wed) (<strong>mydomain\<someuser></strong>), but access was denied as expected.</li>
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Testing Access Denied to Accounting Folder" width="80%">
+  <img src="https://github.com/user-attachments/assets/85375a91-3849-4619-9cd3-7993cf796532" alt="Testing Access Denied to Accounting Folder" width="80%">
 </p>
+
+
 
 <h2>Part 4: Granting Access to the ACCOUNTANTS Group</h2>
 
 <p><strong>Step 6: Add the User to the ACCOUNTANTS Group</strong></p>
 <ul>
   <li>I logged out of <strong>Client-1</strong> as <strong><someuser></strong>.</li>
-  <li>Back on <strong>DC-1</strong>, I made <strong><someuser></strong> a member of the <strong>ACCOUNTANTS</strong> group.</li>
+  <li>Back on <strong>DC-1</strong>, I made (bam.wed) <strong><someuser></strong> a member of the <strong>ACCOUNTANTS</strong> group.</li>
   <li>I logged back into <strong>Client-1</strong> as <strong><someuser></strong>.</li>
 </ul>
 
