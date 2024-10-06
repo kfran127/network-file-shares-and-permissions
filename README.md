@@ -102,14 +102,21 @@
   <li>I logged back into <strong>Client-1</strong> as <strong><someuser></strong>.</li>
 </ul>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9fb52de9-6b7f-4376-8fa2-fcee41bdd407" alt="Testing Access to Accounting Folder After Group Addition" width="80%">
+</p>
+
+
 <p><strong>Step 7: Test Access to the Accounting Folder Again</strong></p>
 <ul>
   <li>After signing back into <strong>Client-1</strong>, I tried accessing the <strong>accounting</strong> share again at <strong>\\DC-1</strong> and verified that I now had <strong>Read/Write</strong> access to the folder as expected.</li>
 </ul>
 
 <p align="center">
-  <img src="IMAGE_URL_HERE" alt="Testing Access to Accounting Folder After Group Addition" width="80%">
+  <img src="https://github.com/user-attachments/assets/61f226ce-39fc-402f-b8dd-2646a407356d" alt="Testing Access to Accounting Folder After Group Addition" width="80%">
 </p>
+
+
 
 <h2>Conclusion</h2>
 
